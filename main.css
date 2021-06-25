@@ -1,0 +1,33 @@
+/* top navbar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 50px;
+  }
+
+  .right {
+     float: right; 
+  } 
+
+  .material-icons-outlined {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    color: #5f6368;
+    opacity: 1;
+    
+  }
+
+  .profile {
+      border-radius: 50%;
+  }
