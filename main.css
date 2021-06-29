@@ -22,7 +22,7 @@ body {
 }
 
 
-
+/* NAVBAR TOP */
 .navbar-nav {
     display: flex;
     justify-content: flex-end;
@@ -32,7 +32,7 @@ body {
 
 .navbar-item {
     list-style: none;
-    margin-right: 1.5rem;
+    margin-right: 1rem;
 }
 
 .navbar-item a {
@@ -42,8 +42,22 @@ body {
 
 .navbar-item a:hover {
     text-decoration:underline;
-    color: #222;
 }
+
+.hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.hover:hover {
+    background-color: #f0f0f0;
+}
+
 
 .navbar-item:first-child {
     margin-left: 2rem;
@@ -53,6 +67,16 @@ body {
     margin-right: auto;
 }
 
+.navbar-item:nth-child(4){
+    margin-right: 0.5rem;
+}
+
+.navbar-item:nth-child(5){
+    margin-right: 0.5rem;
+}
+
+
+/* MAIN CONTENT */
 main {
     padding: 100px; /* temporary padding, might need to change */
 }
@@ -60,11 +84,10 @@ main {
   
 
 
-
-  /* bottom navbar */
-  .footer {
-      position: fixed;
-      background-color: #706e6eee;
-      /* background-color: #f2f2f2; */
-      /* this is the correct color */
-  }
+/* FOOTER NAV */
+.footer {
+    position: fixed;
+    background-color: #706e6eee;
+    /* background-color: #f2f2f2; */
+    /* this is the correct color */
+}
