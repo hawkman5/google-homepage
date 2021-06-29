@@ -1,5 +1,9 @@
-/* top navbar */
+body {
+    background-color: #ffffff;
+}
 
+
+/* top navbar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -27,7 +31,18 @@ a {
     opacity: 1;
     
   }
-
+.material-icons.md-24 {
+    font-size: 24px;
+}
   .profile {
       border-radius: 50%;
+  }
+
+
+  /* bottom navbar */
+  .footer {
+      position: fixed;
+      background-color: #706e6eee;
+      /* background-color: #f2f2f2; */
+      /* this is the correct color */
   }
