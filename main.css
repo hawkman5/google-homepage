@@ -1,10 +1,28 @@
 body {
+    color: #222;
     background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: 14px;
 }
 
+.navbar {
+    position: fixed;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* maybe change this and look into what it does again */
+    height: 100%;
+}
 
 /* top navbar */
-ul {
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -21,7 +39,12 @@ a {
 
   .right {
      float: right; 
-  } 
+  }  */
+/* ------------------------------- */
+
+main {
+    padding: 100px; /* temporary padding, might need to change */
+}
 
   .material-icons-outlined {
     font-family: 'Material Icons';
