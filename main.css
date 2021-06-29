@@ -7,15 +7,32 @@ body {
     font-size: 14px;
 }
 
+
+
+.material-icons.md-24 {
+    font-size: 24px;
+    color: #5f6368;
+    opacity: 1;
+}
+  
+.profile {
+    border-radius: 50%;  
+    width: 32px;
+    height: auto;
+}
+
+
+
 .navbar-nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-top: 10px;
 }
 
 .navbar-item {
     list-style: none;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
 }
 
 .navbar-item a {
@@ -35,25 +52,13 @@ body {
 .navbar-item:nth-child(2){
     margin-right: auto;
 }
-/* woohoo another comment */
+
 main {
     padding: 100px; /* temporary padding, might need to change */
 }
 
-  .material-icons-outlined {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    color: #5f6368;
-    opacity: 1;
-    
-  }
-.material-icons.md-24 {
-    font-size: 24px;
-}
-  .profile {
-      border-radius: 50%;
-  }
+  
+
 
 
   /* bottom navbar */
