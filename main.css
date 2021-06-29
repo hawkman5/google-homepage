@@ -23,6 +23,8 @@ body {
 
 
 /* NAVBAR TOP */
+
+/* ADD the mouse efffects!!!!! */
 .navbar-nav {
     display: flex;
     justify-content: flex-end;
@@ -78,16 +80,59 @@ body {
 
 /* MAIN CONTENT */
 main {
-    padding: 100px; /* temporary padding, might need to change */
+    padding-top: 100px; 
+/* temporary padding */
 }
-
-  
 
 
 /* FOOTER NAV */
-.footer {
+.footer-nav {
     position: fixed;
-    background-color: #706e6eee;
-    /* background-color: #f2f2f2; */
-    /* this is the correct color */
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; THIS IS THE CORRECT COLOR */
+}
+
+.footer-item {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: #70757a;
+}
+
+.footer-item a:hover {
+    text-decoration:underline;
+}
+
+.footer-item:first-child {
+    margin-left: 2rem;
+}
+
+.footer-item:nth-child(4){
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-item:nth-child(7){
+    margin-right: 2rem;
+}
+
+.footer-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-item a img {
+    height: 0.9rem;
+    width: auto;
+    margin-right: 5px;
 }
