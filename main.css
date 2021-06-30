@@ -80,8 +80,11 @@ body {
 
 /* MAIN CONTENT */
 main {
-    padding-top: 100px; 
-/* temporary padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
@@ -136,3 +139,10 @@ main {
     width: auto;
     margin-right: 5px;
 }
+
+
+
+
+
+
+/* USE FLEX WRAP And other flex box stuff and media queries to make this responsive */
